@@ -32,11 +32,11 @@ header nav {
 #nav-bar a {
   color: #f5f5f7;
   font-weight: bold;
-  transition: 0.4s;
+  transition: 0.4s ease;
 }
 
 #nav-bar a:hover {
-  color: #ccc;
+  color: #d3d3d3;
 }
 
 /* Bottom-header */
@@ -73,3 +73,73 @@ header nav {
   padding: 0.4rem 1rem;
   color: #fff;
 }
+
+/* Content */
+
+/* Ribbon */
+#ribbon {
+  text-align: center;
+  background-color: #f5f5f7;
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: #1d1d1d;
+}
+
+#ribbon a {
+  color: #0071e3;
+}
+
+/* Main */
+#main-content {
+  text-align: center;
+  color: #1d1d1d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center;
+  padding: 20px 0;
+  gap: 20px; */
+}
+
+#main-content #title {
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+#main-content #subtitle {
+  font-size: 4rem;
+  margin: 1rem;
+  font-weight: bold;
+}
+
+#main-content #description {
+  max-width: 600px;
+  margin: 1rem auto;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+
+#main-content #price {
+  font-size: 1.3rem;
+  color: #86868b;
+  margin: 2rem;
+}
+
+#main-content .btn {
+  font-size: 1.1rem;
+  padding: 0.8rem 1.4rem;
+  align-self: center;
+}
+
+/* #description {
+  max-width: 1000px;
+}
+
+.image-picker ul {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid black;
+  padding: 20px;
+} */
