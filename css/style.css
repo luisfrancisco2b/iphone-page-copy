@@ -139,16 +139,16 @@ header nav {
   opacity: 0.5s;
 }
 
-.image-picker {
+#image-picker {
   margin-bottom: 500px;
 }
 
-.image-picker ul {
+#image-picker ul {
   display: flex;
   justify-content: center;
 }
 
-.image-picker li {
+#image-picker li {
   margin: 3rem;
   display: flex;
   flex-direction: column;
@@ -156,7 +156,7 @@ header nav {
   cursor: pointer;
 }
 
-.image-picker .color {
+#image-picker .color {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
@@ -165,7 +165,7 @@ header nav {
   pointer-events: none;
 }
 
-.image-picker .description {
+#image-picker .description {
   font-size: 0.7rem;
   margin-top: 10px;
   color: #1d1d1d;
@@ -218,7 +218,7 @@ header nav {
   #main-content #subtitle {
     font-size: 3rem;
   }
-  .image-picker li {
+  #image-picker li {
     margin: 1rem;
   }
 }
